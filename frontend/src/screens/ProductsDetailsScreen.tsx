@@ -14,7 +14,7 @@ import {AirbnbRating} from 'react-native-ratings';
 import {RouteStackParamList} from '../../App';
 import {icons} from '../constants';
 import {RouteTabsParamList} from './HomeScreen';
-import LinearGradient from 'react-native-linear-gradient';
+import { LinearGradient } from 'expo-linear-gradient';
 import {FeaturesData} from '../tabs/HomeTab';
 import {ProductItem} from '../components';
 import {ProductData} from '../constants/data';

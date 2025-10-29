@@ -13,7 +13,7 @@ import {
   ProfileScreen,
   SignupScreen,
 } from './src/screens';
-import SplashScreen from 'react-native-splash-screen';
+import * as SplashScreen from 'expo-splash-screen';
 import GetStartedScreen from './src/screens/GetStartedScreen';
 import {ItemDetails} from './src/constants/types';
 import {getItem} from './src/utils/AsyncStorage';
